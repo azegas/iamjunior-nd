@@ -1,0 +1,26 @@
+@use '../../styles/variables';
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, variables.$secondary-color, transparent);
+    height: 60vh;
+    margin: 20px 0;
+}
+
+.heroTitle {
+    margin: 10px; /* Add some margin for spacing */
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.heroTitle span {
+    color: variables.$primary-color;
+}
+
+.heroSubtitle {
+    margin: 10px;
+}

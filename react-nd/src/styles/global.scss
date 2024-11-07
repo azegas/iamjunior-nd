@@ -1,0 +1,80 @@
+@use 'variables'; // Use the @use instead of @import
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; /* Center the app horizontally */
+}
+
+@mixin global-hover($color) {
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px $color;
+  }
+}
+
+.active {
+  color: variables.$primary-color;
+  background-color: variables.$tertiary-color;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+  margin: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.titleSmaller {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.text {
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.error {
+  color: red; /* Change text color to red */
+  background-color: rgba(255, 0, 0, 0.1); /* Light red background */
+  border: 1px solid red; /* Red border */
+  padding: 10px; /* Add some padding */
+  border-radius: 5px; /* Rounded corners */
+  font-weight: bold; /* Make the text bold */
+}
+
+.middleOfPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 20px;
+}

@@ -1,0 +1,159 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Cleaning",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "icon": "https://img.icons8.com/?size=100&id=8088&format=png&color=800080"
+        },
+        {
+            "id": 2,
+            "name": "Repair",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "icon": "https://img.icons8.com/?size=100&id=92378&format=png&color=ebdf34"
+        },
+        {
+            "id": 3,
+            "name": "Painting",
+            "description": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
+            "icon": "https://img.icons8.com/?size=100&id=8141&format=png&color=34ebdb"
+        },
+        {
+            "id": 4,
+            "name": "Shifting",
+            "description": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
+            "icon": "https://img.icons8.com/?size=100&id=9341&format=png&color=FF0000"
+        },
+        {
+            "id": 5,
+            "name": "Plumbing",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "icon": "https://img.icons8.com/?size=100&id=67287&format=png&color=FFA500"
+        },
+        {
+            "id": 6,
+            "name": "Electric",
+            "description": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
+            "icon": "https://img.icons8.com/?size=100&id=77278&format=png&color=0000FF"
+        }
+    ],
+    "businesses": [
+        {
+            "id": 1,
+            "name": "House Cleaning",
+            "category": "Cleaning",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "image": "https://media.istockphoto.com/id/609608134/photo/woman-with-basket-and-cleaning-equipment.jpg?s=612x612&w=0&k=20&c=9a6DIVAdZnS8tRQ9UA5wWsvIvexqq8jyGq2woKzUyWE=",
+            "address": "Vilnius, Lithuania",
+            "worker": "John Doe"
+        },
+        {
+            "id": 2,
+            "name": "Appliance Repair",
+            "category": "Repair",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "image": "https://media.istockphoto.com/id/486913078/photo/repairman-at-customers-front-door.jpg?s=612x612&w=0&k=20&c=7W7AwpwIYq-4Uf6hxKfWM6KanW_Q_Oj6KChM4HxNbMM=",
+            "address": "Kaunas, Lithuania",
+            "worker": "Jane Smith"
+        },
+        {
+            "id": 3,
+            "name": "Interior Painting",
+            "category": "Painting",
+            "description": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
+            "image": "https://www.homepainterstoronto.com/wp-content/uploads/2023/03/4._Different_Qualities_of_Paint-1024x769.webp",
+            "address": "Klaipeda, Lithuania",
+            "worker": "Michael Johnson"
+        },
+        {
+            "id": 4,
+            "name": "Furniture Moving",
+            "category": "Shifting",
+            "description": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
+            "image": "https://www.move.org/app/uploads/2020/03/The-5-Best-Moving-Companies-of-2020.jpeg",
+            "address": "Panevezys, Lithuania",
+            "worker": "Emily Brown"
+        },
+        {
+            "id": 5,
+            "name": "Plumbing Services",
+            "category": "Plumbing",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "image": "https://www.tradesfortomorrow.ca/wp-content/uploads/2023/08/AdobeStock_618936025-scaled.jpeg",
+            "address": "Siauliai, Lithuania",
+            "worker": "Elizabeth Johnson"
+        },
+        {
+            "id": 6,
+            "name": "Electrical Work",
+            "category": "Electric",
+            "description": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
+            "image": "https://www.optimistdaily.com/wp-content/uploads/shutterstock_668450440.jpg",
+            "address": "Taurage, Lithuania",
+            "worker": "Sarah Taylor"
+        },
+        {
+            "id": 7,
+            "name": "Gardening Services",
+            "category": "Gardening",
+            "description": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
+            "image": "https://www.familyeducation.com/sites/default/files/fe_slideshow/2008_03/Landscaping_H.jpg",
+            "address": "Alytus, Lithuania",
+            "worker": "James Wilson"
+        },
+        {
+            "id": 8,
+            "name": "House Cleaning 2",
+            "category": "Cleaning",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "image": "https://media.istockphoto.com/id/609608134/photo/woman-with-basket-and-cleaning-equipment.jpg?s=612x612&w=0&k=20&c=9a6DIVAdZnS8tRQ9UA5wWsvIvexqq8jyGq2woKzUyWE=",
+            "address": "Vilnius, Lithuania",
+            "worker": "John Doe"
+        },
+        {
+            "id": 9,
+            "name": "Appliance Repair 2",
+            "category": "Repair",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "image": "https://media.istockphoto.com/id/486913078/photo/repairman-at-customers-front-door.jpg?s=612x612&w=0&k=20&c=7W7AwpwIYq-4Uf6hxKfWM6KanW_Q_Oj6KChM4HxNbMM=",
+            "address": "Kaunas, Lithuania",
+            "worker": "Jane Smith"
+        },
+        {
+            "id": 10,
+            "name": "Interior Painting 2",
+            "category": "Painting",
+            "description": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
+            "image": "https://www.homepainterstoronto.com/wp-content/uploads/2023/03/4._Different_Qualities_of_Paint-1024x769.webp",
+            "address": "Klaipeda, Lithuania",
+            "worker": "Michael Johnson"
+        },
+        {
+            "id": 11,
+            "name": "Furniture Moving 2",
+            "category": "Shifting",
+            "description": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
+            "image": "https://www.move.org/app/uploads/2020/03/The-5-Best-Moving-Companies-of-2020.jpeg",
+            "address": "Panevezys, Lithuania",
+            "worker": "Emily Brown"
+        },
+        {
+            "id": 12,
+            "name": "House Cleaning 3",
+            "category": "Cleaning",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "image": "https://media.istockphoto.com/id/609608134/photo/woman-with-basket-and-cleaning-equipment.jpg?s=612x612&w=0&k=20&c=9a6DIVAdZnS8tRQ9UA5wWsvIvexqq8jyGq2woKzUyWE=",
+            "address": "Vilnius, Lithuania",
+            "worker": "John Doe"
+        },
+        {
+            "id": 13,
+            "name": "Plumbing Services 3",
+            "category": "Plumbing",
+            "description": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+            "image": "https://www.tradesfortomorrow.ca/wp-content/uploads/2023/08/AdobeStock_618936025-scaled.jpeg",
+            "address": "Siauliai, Lithuania",
+            "worker": "Elizabeth Johnson"
+        }
+    ]
+}

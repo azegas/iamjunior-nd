@@ -1,0 +1,77 @@
+@use '../../styles/variables';
+@use '../../styles/global';
+
+.businessCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    @media (max-width: 768px) {
+        width: 50%;
+    }
+    @media (max-width: 480px) {
+        width: 100%;
+    }
+    @include global.global-hover(variables.$primary-color);
+
+    .image {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0px;
+    }
+
+    .category {
+        color: variables.$primary-color;
+        background-color: variables.$tertiary-color;
+        padding: 5px;
+        border-radius: 5px;
+        width: fit-content;
+    }
+
+    .name {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .worker {
+        color: variables.$primary-color;
+    }
+
+    .address {
+        color: gray;
+    }
+
+    .bookButton {
+        background-color: variables.$primary-color;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width: fit-content;
+        cursor: pointer;
+    }
+
+    .favoriteButton {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: white;
+        padding: 5px;
+        width: 50px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
+}
