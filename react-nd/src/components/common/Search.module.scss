@@ -1,0 +1,28 @@
+.searchSidebar {
+    width: 300px;
+    margin-right: 20px;
+  }
+  
+  .searchContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .categoryListSidebar {
+      flex-direction: column;
+  }
+  
+  .categoryCardSidebar {
+      display: flex;
+      align-items: left;
+      flex-direction: row;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      border: 1px solid lightgray;
+  }
+  
+  .categoryCardSidebar img {
+      width: 40px;
+      height: 40px;
+  }
