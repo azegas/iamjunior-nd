@@ -1,0 +1,36 @@
+@use '@/styles/variables';
+@use '@/styles/global';
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+
+  .left {
+    display: flex;
+    align-items: center;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .links a {
+    margin-right: 10px; /* Add some margin between links */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .favoriteIcon {
+    width: 30px;
+    height: 30px;
+  }
+}

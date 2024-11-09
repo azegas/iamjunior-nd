@@ -1,0 +1,13 @@
+// When VSCode's Ctrl+Click or Go to Definition fails to navigate to the source file (could not go from Loading component to Spinner component),
+// VSCode may not resolve absolute imports without correct configuration in your project’s jsconfig.json or tsconfig.json file.
+// This tells VSCode how to resolve @ as the base folder (src in this case).
+// After editing the configuration file, restart VSCode for it to take effect
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
