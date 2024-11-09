@@ -34,10 +34,11 @@ const startServer = async () => {
     await connectToDB(); // Connect to the database
     // if connection is successful, start the server
     app.listen(process.env.API_PORT, () => {
-      // eslint-disable-next-line no-console
-      console.log(
-        `Server is running on ${process.env.API_PROTOCOL}://${process.env.API_HOST}:${process.env.API_PORT}`,
-      );
+      process.env.NODE_ENV === 'production'
+        ? console.log(`Server is running on ${process.env.API_HOST_PROD}`)
+        : console.log(
+            `Server is running on ${process.env.API_PROTOCOL_LOCAL}://${process.env.API_HOST_LOCAL}:${process.env.API_PORT_LOCAL}`,
+          );
     });
   } catch {
     // eslint-disable-next-line no-console
