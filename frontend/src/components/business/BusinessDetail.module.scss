@@ -1,0 +1,94 @@
+@use '../../styles/variables';
+
+.businessDetail {
+  margin-top: 20px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  height: 200px;
+
+  .name {
+    color: variables.$primary-color;
+  }
+
+  .businessImage {
+    align-self: center;
+  }
+
+  .businessImage img {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .details {
+    flex: 2;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .category {
+      color: variables.$primary-color;
+      background-color: variables.$tertiary-color;
+      padding: 10px;
+      border-radius: 20px;
+      width: fit-content;
+    }
+
+    .title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .field {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.descriptionSidebar {
+  display: flex;
+  justify-content: space-between;
+
+  .description {
+    flex: 3;
+    padding: 20px;
+
+    .gallery {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+  }
+
+  .sidebar {
+    flex: 1;
+    padding: 20px;
+  }
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

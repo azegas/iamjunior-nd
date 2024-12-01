@@ -1,0 +1,20 @@
+.bookingCard {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #000;
+
+  .left {
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
