@@ -1,0 +1,33 @@
+@import '@/styles/variables.scss';
+@import '@/styles/global.scss';
+
+.dropdownTrigger {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute; /* Change to absolute for positioning under the trigger */
+  top: 100%; /* Position directly below the trigger */
+  right: 0; /* Align with the trigger's left edge */
+  z-index: 10; /* Ensure it's above other content */
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for better visibility */
+
+  ul {
+    list-style: none; /* Remove default bullet points */
+  }
+
+  li {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  li:hover {
+    background-color: $primary-color; /* Highlight on hover */
+    color: white;
+  }
+}

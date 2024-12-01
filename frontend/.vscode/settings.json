@@ -1,0 +1,22 @@
+{
+  // Javascript specific config
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // eslint configuration (linting on save)
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+
+  // prettier configuration (formatting on save)
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // don't show hidden files in the explorer
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true
+  }
+}
